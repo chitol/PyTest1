@@ -9,7 +9,7 @@ style.use('ggplot')
 start =dt.datetime(2018,1,18)
 end =dt.datetime(2018,11,18)
 
-df = web.DataReader('MSFT', 'yahoo', start, end)
+df = web.DataReader('QCOM', 'yahoo', start, end)
 #df.to_csv('mycsv.csv')
 #print(df.head(9))
 
